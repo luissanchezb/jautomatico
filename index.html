@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="img/gym.jpg" type="image/x-icon">
+    <title>GYM ULEAM</title>
+</head>
+
+<body>
+
+    <!-- Menu del sistema -->
+
+    <div class="contenedor-header">
+        <header>
+            <h1> GYM <span class="txtRojo"> ULEAM </span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">Inicio</a>
+                <a href="/GYM ULEAM/quienes somos/quienessomos.html" target="_blank" onclick="seleccionar()">Quienes Somos</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#comodidades" onclick="seleccionar()">Beneficios</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#equipo" onclick="seleccionar()">Planes</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto </a>
+                
+            </nav>
+            <div class="redes">
+                <a href="https://www.facebook.com/UleamEc/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/uleamecuador" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/uleam_ecuador_oficial/?hl=es" target="_blank" ><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+
+            <!-- Icono del menu responsive -->
+
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    <!-- Seccion Inicio -->
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2> TU MEJOR <span class="txtRojo"> ELECCIÓN </span></h2>
+                <p> ¡Tu único límite eres tú!</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.CROSSFIT.
+                </div>
+                <div class="opcion">
+                    02.YOGA.
+                </div>
+                <div class="opcion">
+                    03.PILATES.
+                </div>
+                <div class="opcion">
+                    04.FITNESS.
+                </div>
+                <div class="opcion">
+                    05.BOX.
+                </div>
+                <div class="opcion">
+                    06.CARDIO.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Quienes Somos -->
+
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase"> TU MEJOR ELECCIÓN. </span>
+                        <h2> QUIENES SOMOS </h2>
+                    </div>
+                </div>
+                <p align="justify" class="p-especial"> GYM-ULEAM cuenta con máquinas y equipos tecnológicos de alta calidad. </p>
+                <p align="justify" > Nuestra misión es democratizar el fitness de alta calidad, haciéndola accesible para todos. Por eso, todos nuestros locales cuentan con la tecnología e instalaciones necesarias para satisfacer las necesidades de nuestros alumnos.  </p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">ENTRENA</span> DIFERENTE
+                </span>
+                <h2>ENTRENA <span class="txtRojo">GRATIS</span> HOY!</h2>
+            </div>
+            <div class="col2">
+                 <a href="registro/registro.html" target="_blank"> <button> REGISTRATE </button> </a>  </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase"> TU MEJOR ELECCIÓN. </span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial"> Los mejores servicios en gimnasios.</p>
+                    <p align="justify" >  </p>
+                </div>
+                <div class="col">
+                    <img src="img/servicios.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3><span class="txtRojo">Clases </span> de Fitness</h3>
+                        <p>Mejora el estado del cuerpo con el entrenamientos de los músculos.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Clases </span> de Crossfit</h3>
+                        <p>Entrenamientos de fuerza y acondicionamiento basado en ejercicios funcionales.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-mitten"></i>
+                        <h3><span class="txtRojo">Clases </span> de Boxeo</h3>
+                        <p>Entrenamientos de cuerpo completo y fuerza.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span class="txtRojo">Clases </span> de Pilates</h3>
+                        <p>Fortalecer el cuerpo, la mente de la mejor manera posible.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3><span class="txtRojo">Clases </span> de Cardio</h3>
+                        <p>Elevar la frecuencia cardíaca con el fin de mejorar la salud del corazón y funcionamiento de pulmones.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-bicycle"></i>
+                        <h3><span class="txtRojo">Clases </span> de Yoga</h3>
+                        <p>Ejercicios de respiración y meditación.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Seccion Galeria -->
+
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase"> TU MEJOR ELECCIÓN. </span>
+                        <h2>BENEFICIOS</h2>
+                    </div>
+                </div>
+                <p class="p-especial"> Brindamos la mejor experiencia y comodidades.</p>
+                <ul>
+                    <li><span>PISCINA</span> - Diferentes zonas de piscina para relajación. </li>
+                    <li><span>WIFI GRATIS</span> - Conectividad de gran calidad.  </li>
+                    <li><span>ESTACIONAMIENTO GRATIS</span> - Lugar amplio de estacionamiento. Disponibilidad 24/7 </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Galeria -->
+
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase"> TU MEJOR ELECCIÓN. </span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase"> TU MEJOR ELECCIÓN. </span>
+                    <h2>PLANES</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/e4.jpg" alt="">
+                    <div class="info">
+                        <h2>PLAN BLACK</h2>
+                        <p>Acceso a Sauna - Jacuzzi</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e2.JPG" alt="">
+                    <div class="info">
+                        <h2>NUESTROS PLANES</h2>
+                        <p> Fitness- Yoga- Pilates</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e3.JPG" alt="">
+                    <div class="info">
+                        <h2>PLAN SMART</h2>
+                        <p> Piscina - Restaurant </p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase"> TU MEJOR ELECCIÓN. </span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa el Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                      Av. Circunvalación - Vía a San Mateo
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                       0997847586 - 2 926-635
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                      Lunes a Sábado, 6:00h - 21:00h
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="info">
+            <p> 2023 - <span class="txtRojo"> LUIS SANCHEZ ©  </span>  </p>
+            <div class="redes">
+                <a href="https://www.facebook.com/UleamEc/" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/uleamecuador" target="_blank" >
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/uleam_ecuador_oficial/?hl=es" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCOferC0PjpEUegrVq8Re-TQ/videos?app=desktop&view=0&sort=dd&shelf_id=0" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
